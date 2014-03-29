@@ -1,0 +1,6 @@
+解决思路：
+
+在activity就将所有的fragment初始化好  加入到一个list中进行维护
+
+点击去下一个页面的时候  就获取到当前的viewpager的id  也就是当前这个fragment，然后获取这个fragment中被选中的listview
+
